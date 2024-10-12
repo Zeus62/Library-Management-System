@@ -1,9 +1,10 @@
 # Library-Management-System
 
-Library Management System
+
 This Library Management System is a console-based C++ application designed to manage books, user interactions, and borrowing/returning of books efficiently. It simulates key functionalities of a real-world library, allowing users to search for, borrow, and return books using either their ID or title.
 
 Features
+
 •	Book Management: Easily add and organize books using unique IDs, titles, and authors. The system ensures ordered storage of books, simplifying book searches.
 •	Search Functionality:
  - Search by ID: Locate a book quickly using its unique identifier.
@@ -20,6 +21,7 @@ Technical Highlights
 •	User Interaction: The application features a simple, interactive console menu allowing users to navigate through different functionalities like displaying books, searching, borrowing, and returning with ease.
 
 How to Run
+
 1. Clone the repository:
 git clone https://github.com/your-repo/library-system.git
 2. Compile the C++ code:
@@ -28,6 +30,7 @@ g++ library_system.cpp -o library_system
 ./library_system
 
 Future Improvements
+
  - Add support for user registration and login.
  - Integrate a graphical user interface (GUI) for a more interactive experience.
  - Implement book categorization and sorting by different criteria (e.g., author, genre).
