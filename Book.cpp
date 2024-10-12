@@ -1,9 +1,7 @@
 #include "Book.h"
-#include <iostream>
-using namespace std;
 
 Book::Book(int id, string title, string author)
-    : id(id), title(title), author(author), isAvailable(true) {}
+        : id(id), title(title), author(author), isAvailable(true) {}
 
 void Book::display() {
     cout << "ID: " << id << ", Title: " << title << ", Author: " << author
@@ -11,5 +9,5 @@ void Book::display() {
 }
 
 bool Book::operator<(const Book& other) const {
-    return id < other.id;
+    return id < other.id;  // For ordering in the set by ID
 }
