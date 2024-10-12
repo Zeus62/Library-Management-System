@@ -1,6 +1,7 @@
 #ifndef BOOK_H
 #define BOOK_H
 
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -12,10 +13,8 @@ public:
     bool isAvailable;
 
     Book(int id, string title, string author);
-
     void display();
-
     bool operator<(const Book& other) const;
 };
 
-#endif
+#endif // BOOK_H
