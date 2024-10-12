@@ -26,15 +26,6 @@ Technical Highlights
 
 •	User Interaction: The application features a simple, interactive console menu allowing users to navigate through different functionalities like displaying books, searching, borrowing, and returning with ease.
 
-How to Run
-
-1. Clone the repository:
-git clone https://github.com/your-repo/library-system.git
-2. Compile the C++ code:
-g++ library_system.cpp -o library_system
-3. Run the application:
-./library_system
-
 Future Improvements
 
  - Add support for user registration and login.
