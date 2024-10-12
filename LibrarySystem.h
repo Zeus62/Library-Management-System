@@ -3,15 +3,13 @@
 
 #include <set>
 #include <map>
-#include <string>
 #include "Book.h"
-using namespace std;
 
 class LibrarySystem {
 private:
-    set<Book> books;
-    map<string, int> bookTitleToId;
-    map<int, bool> borrowedBooks;
+    set<Book> books; // for ordered storage by ID
+    map<string, int> bookTitleToId; // hash table to map title to ID
+    map<int, bool> borrowedBooks;   // hash table to track borrowed books
 
 public:
     void addBook(int id, string title, string author);
@@ -24,4 +22,4 @@ public:
     bool returnBookByTitle(const string &title);
 };
 
-#endif
+#endif // LIBRARYSYSTEM_H
